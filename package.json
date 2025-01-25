@@ -1,0 +1,12 @@
+{
+  "name": "versionate.sh",
+  "version": "1.0.0",
+  "description": "Script to automatically: push(main) + branch overwrite based on version + push(vX).",
+  "main": "versionate.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "allnulled",
+  "license": "WTFPL"
+}
