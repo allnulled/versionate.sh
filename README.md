@@ -4,6 +4,8 @@ Script to automatically: push(main) + branch overwrite based on version + push(v
 
 Requires `git` and `jq` installed from command line.
 
+Está [`up.sh`](https://github.com/allnulled/up.sh) también en el proyecto.
+
 ## Content
 
 ```sh
