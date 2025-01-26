@@ -1,17 +1,3 @@
-# versionate.sh
-
-Script to automatically: push(main) + branch overwrite based on version + push(vX).
-
-Requires `git` and `jq` installed from command line.
-
-You can find [`versionate.sh`](https://github.com/allnulled/versionate.sh/blob/main/up.sh).
-
-You can also find [`up.sh`](https://github.com/allnulled/versionate.sh/blob/main/up.sh).
-
-
-## Content
-
-```sh
 #!/bin/bash
 
 # 0. Comprobar que estamos en la rama "main"
@@ -57,4 +43,3 @@ echo "Rama '$branch_name' creada y subida al remoto."
 git checkout main
 
 echo "Vuelto a la rama 'main'."
-```
